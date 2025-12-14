@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple Landing Page</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .hero {
+            background: linear-gradient(to right, #0d6efd, #0b5ed7);
+            color: white;
+            padding: 100px 0;
+        }
+        .feature-icon {
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">MyLanding</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero text-center">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Build Something Amazing</h1>
+        <p class="lead mt-3">A simple landing page built with Bootstrap</p>
+        <a href="#contact" class="btn btn-light btn-lg mt-3">Get Started</a>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section id="features" class="py-5">
+    <div class="container">
+        <div class="row text-center mb-4">
+            <h2 class="fw-bold">Features</h2>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="feature-icon mb-3">⚡</div>
+                <h5>Fast</h5>
+                <p>Optimized and lightweight design.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-icon mb-3">📱</div>
+                <h5>Responsive</h5>
+                <p>Looks great on all devices.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="feature-icon mb-3">🎨</div>
+                <h5>Customizable</h5>
+                <p>Easy to modify and extend.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="bg-light py-5">
+    <div class="container text-center">
+        <h2 class="fw-bold">Ready to Start?</h2>
+        <p class="mb-4">Join us and build your next project.</p>
+        <a href="#" class="btn btn-primary btn-lg">Contact Us</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 MyLanding. All rights reserved.</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
